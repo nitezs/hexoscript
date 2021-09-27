@@ -1,3 +1,8 @@
+# 通过正则表达式匹配文章中的本地图片并上传到 sm.ms 图床替换本地链接
+# 正则表达式在 21 行 匹配 /img/titile/...
+# 使用前需要在第 31 行填入 api token
+# 放置于 hexo 根目录使用
+
 import os
 import re
 import time
